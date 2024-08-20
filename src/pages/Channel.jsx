@@ -1,9 +1,12 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
-const Channel = () => {
+const Chennel = () => {
   return (
-    <div>Channel</div>
+    <Main>
+      Chennel
+    </Main>
   )
 }
 
-export default Channel
+export default Chennel
