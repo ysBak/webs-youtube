@@ -3,7 +3,10 @@ import Main from '../components/section/Main'
 
 const Home = () => {
   return (
-    <Main>
+    <Main 
+      title="ヨンサム Youtube" 
+      description="Welcome ヨンサム Youtube Page" 
+    >
       Home
     </Main>
   )

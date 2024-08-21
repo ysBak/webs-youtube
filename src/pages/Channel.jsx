@@ -3,7 +3,10 @@ import Main from '../components/section/Main'
 
 const Chennel = () => {
   return (
-    <Main>
+    <Main 
+    title="Youtube Chennel" 
+    description="Youtube Channel Page" 
+    >
       Chennel
     </Main>
   )
