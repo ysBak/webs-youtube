@@ -14,42 +14,42 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 export const headerMenus = [
     {
-        title: "웹스토리보이",
+        title: "Home",
         icon: <CiBaseball />,
         src: "/"
     },
     {
-        title: "추천 영상",
+        title: "今日のおすすめ",
         icon: <CiMoneyBill />,
         src: "/today"
     },
     {
-        title: "추천 개발자",
+        title: "おすすめチャンネル",
         icon: <CiCoins1 />,
         src: "/developer"
     },
     {
-        title: "웹디자인기능사",
+        title: "IT",
         icon: <CiBoxes />,
         src: "/webd"
     },
     {
-        title: "웹표준 사이트",
+        title: "日本語",
         icon: <CiBullhorn />,
         src: "/website"
     },
     {
-        title: "GSAP Parallax",
+        title: "トレーニング",
         icon: <CiCoffeeCup />,
         src: "/gsap"
     },
     {
-        title: "포트폴리오 사이트",
+        title: "野球",
         icon: <CiDumbbell />,
         src: "/port"
     },
     {
-        title: "유튜브 클론 사이트",
+        title: "音楽",
         icon: <CiFries />,
         src: "/youtube"
     },

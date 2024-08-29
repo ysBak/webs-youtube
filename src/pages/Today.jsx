@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
+
 import { Link } from 'react-router-dom'
 import { todayText } from '../data/today'
 
 const Today = () => {
+  const [loading, setLoading] = useState(true); 
+
+  useEffect(() => {
+      setTimeout(() => {
+          setLoading(false);
+      }, 300);
+  }, []);
+
+  const todayPageClass = loading ? 'isLoading' : 'isLoaded';
   return (
     <Main
        title = "추천 영상"
