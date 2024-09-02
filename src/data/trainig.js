@@ -14,7 +14,7 @@ import gsap13 from "../assets/img/gsap/gsap13.jpg";
 import gsap14 from "../assets/img/gsap/gsap14.jpg";
 import gsap15 from "../assets/img/gsap/gsap15.jpg";
 
-export const gsapText = [
+export const trainigText = [
     {
         title: "01. GSAP Parallax Effect : 기본 애니메이션(feat. scrollTrigger) |  웹스토리보이",
         img: gsap01,

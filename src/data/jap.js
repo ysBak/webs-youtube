@@ -21,7 +21,7 @@ import website20 from "../assets/img/site/site20.jpg";
 import website21 from "../assets/img/site/site21.jpg";
 import website22 from "../assets/img/site/site22.jpg";
 
-export const websiteText = [
+export const japText = [
     {
         title: "01. 웹표준 사이트 만들기 : 디자인 : 헤더 유형01 / 피그마(Figma)로 작업하기 / 웹스토리보이",
         img: website01,

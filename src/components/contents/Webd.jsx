@@ -14,7 +14,6 @@ const Webd = () => {
                     <Link to={`/video/${video.videoId}`}>
                       <img src={video.img} alt={video.title} />
                     </Link>
-
                   </div>
 
                 </div>

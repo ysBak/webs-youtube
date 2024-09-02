@@ -4,7 +4,7 @@ import youtube03 from "../assets/img/youtube/youtube03.jpg";
 import youtube04 from "../assets/img/youtube/youtube04.jpg";
 import youtube05 from "../assets/img/youtube/youtube05.jpg";
 
-export const youtubeText = [
+export const musicText = [
     {
         title: "01 나만의 유튜브 사이트 만들기",
         img: youtube01,

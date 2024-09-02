@@ -38,7 +38,7 @@ import webd37 from "../assets/img/webd/webd37.jpg";
 import webd38 from "../assets/img/webd/webd38.jpg";
 import webd39 from "../assets/img/webd/webd39.jpg";
 
-export const webdText = [
+export const itText = [
     {
         title: "웹디자인기능사 2023년 실기 강의 : 레이아웃 유형(A-1) | 웹스토리보이 | 2023 웹디기",
         img: webd01,

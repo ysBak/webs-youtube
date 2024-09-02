@@ -42,7 +42,7 @@ import port38 from "../assets/img/port/port-next08.jpg";
 import port39 from "../assets/img/port/port-next09.jpg";
 import port40 from "../assets/img/port/port-next10.jpg";
 
-export const portfolioText = [
+export const baseballText = [
     {
         title: "01. 다양한 프레임워크로 구축하는 포트폴리오 사이트 개발 : Vite : 셋팅하기 | 웹스토리보이 | 포트폴리오",
         img: port01,

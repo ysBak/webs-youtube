@@ -22,7 +22,7 @@ const Developer = () => {
     description="おすすめチャンネル Page" 
     >
       <section id='developerPage' className={developoerPageClass}>
-      <h2>おすすめチャンネルの紹介です。</h2>
+      <h2>👍おすすめチャンネルの紹介です。</h2>
       <div className='developer__inner'>
         {developerText.map((developer, key) => (
           <div className='developer' key={key}>

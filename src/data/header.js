@@ -31,17 +31,17 @@ export const headerMenus = [
     {
         title: "IT",
         icon: <CiBoxes />,
-        src: "/webd"
+        src: "/it"
     },
     {
         title: "日本語",
         icon: <CiBullhorn />,
-        src: "/website"
+        src: "/jap"
     },
     {
         title: "トレーニング",
         icon: <CiCoffeeCup />,
-        src: "/gsap"
+        src: "/trainig"
     },
     {
         title: "野球",
@@ -93,8 +93,8 @@ export const searchKeyword = [
         src: "/search/sql"
     },
     {
-        title: "portfolio",
-        src: "/search/React Portfolio"
+        title: "baseball",
+        src: "/search/React Baseball"
     },
     {
         title: "music",
