@@ -16,11 +16,11 @@ const Today = () => {
   const todayPageClass = loading ? 'isLoading' : 'isLoaded';
   return (
     <Main
-       title = "추천 영상"
-       description="오늘의 추천 유튜브 영상입니다.">
+       title = "おすすめ動画"
+       description="今日のおすすめ動画です。">
       
       <section id='todayPage'>
-        <h2>🥰 오늘의 추천 영상입니다.</h2>
+        <h2>🥰 今日のおすすめ動画です。</h2>
         {todayText.map((today, key) => (
                <div className='today__inner' key={key}> 
                  <div className='today__thumb play__icon'>
