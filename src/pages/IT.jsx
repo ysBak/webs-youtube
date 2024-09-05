@@ -1,14 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
 
-const it = () => {
+import VideoCards from '../components/videos/VideoCards'
+import { itText } from '../data/it'
+
+const IT = () => {
+  const [loading, setLoading] = useState(true); 
+
+  useEffect(() => {
+      setTimeout(() => {
+          setLoading(false);
+      }, 300);
+  }, []);
+
+const itPageClass = loading ? 'isLoading' : 'isLoaded';
+
   return (
     <Main
-    title = "웹디자인 기능사"
-    description="웹디자인 기능사 튜토리얼 강의입니다.">
-      IT
+    title = "IT"
+    description="IT関連動画です。">
+          <section id='itPage' className={itPageClass}>
+                <h2>😄 IT</h2>
+                <div className="video__inner">
+                    <VideoCards videos={itText} />
+                </div>
+            </section>
     </Main>
   )
 }
 
-export default it
+export default IT

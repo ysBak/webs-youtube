@@ -1,14 +1,14 @@
 import React from 'react'
 
 import { Link } from 'react-router-dom'
-import { gsapText } from '../../data/gsap'
+import { trainigText } from '../../data/trainig'
 
-const Gsap = () => {
+const Trainig = () => {
   return (
-    <section id='gsap'>
+    <section id='trainig'>
     <h2>🤓 GSAP 패럴랙스 효과를 하고 싶다면!</h2>
       <div className="video__inner">
-          {gsapText.map((video, key) => (
+          {trainigText.map((video, key) => (
             <div className="video" key={key}>
               <div className="video__thumb play__icon">
                 <Link to={`/video/${video.videoId}`}>
@@ -23,4 +23,4 @@ const Gsap = () => {
   )
 }
 
-export default Gsap
+export default Trainig

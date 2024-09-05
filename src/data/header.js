@@ -46,12 +46,12 @@ export const headerMenus = [
     {
         title: "野球",
         icon: <CiDumbbell />,
-        src: "/port"
+        src: "/baseball"
     },
     {
         title: "音楽",
         icon: <CiFries />,
-        src: "/youtube"
+        src: "/music"
     },
 ];
 

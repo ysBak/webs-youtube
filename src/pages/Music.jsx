@@ -1,14 +1,32 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import Main from '../components/section/Main'
 
-const Youtube = () => {
+import VideoCards from '../components/videos/VideoCards'
+import {musicText} from '../data/music'
+const Music = () => {
+  const [loading, setLoading] = useState(true); 
+
+  useEffect(() => {
+      setTimeout(() => {
+          setLoading(false);
+      }, 300);
+  }, []);
+
+const musicPageClass = loading ? 'isLoading' : 'isLoaded';
+
+
   return (
     <Main 
-    title = "유튜브 사이트"
-    description="유튜브 사이트 튜토리얼 강의입니다.">
-      Youtube
+    title = "音楽"
+    description="音楽関連動画です。">
+    <section id='musicPage' className={musicPageClass}>
+    <h2>音楽</h2>
+    <div className="video__inner">
+                <VideoCards videos={musicText} />
+            </div>
+  </section>
     </Main>
   )
 }
 
-export default Youtube
+export default Music

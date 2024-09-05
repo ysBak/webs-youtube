@@ -1,4 +1,4 @@
-import React, {Suspense, lazy} from 'react'
+import React, {Suspense, lazy, useEffect } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Main from './components/section/Main'
 
@@ -16,6 +16,10 @@ const Search = lazy(() => import('./pages/Search'));
 const Not = lazy(() => import('./pages/Not'));
 
 const App = () => {
+  useEffect(() => {
+    // 여기에 콘솔 로그 추가
+    console.log('API Key:', process.env.REACT_APP_YOUTUBE_API_KEY);
+}, []);
     return (
       <BrowserRouter>
         <Suspense fallback={<Main/>}>

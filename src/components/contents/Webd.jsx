@@ -1,14 +1,14 @@
 import React from 'react'
 
-import { webdText } from '../../data/webd'
+import { itText } from '../../data/it'
 import { Link } from 'react-router-dom'
 
-const Webd = () => {
+const IT = () => {
   return (
-      <section id='webd'>
+      <section id='it'>
         <h2>😮 웹디자인기능사 준비는 이걸로!</h2>
           <div className="video__inner">
-              {webdText.map((video, key) => (
+              {itText.map((video, key) => (
                 <div className="video" key={key}>
                   <div className="video__thumb play__icon">
                     <Link to={`/video/${video.videoId}`}>
@@ -23,4 +23,4 @@ const Webd = () => {
   )
 }
 
-export default Webd
+export default IT
