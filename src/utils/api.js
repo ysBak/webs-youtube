@@ -1,21 +1,22 @@
-import axios from "axios";
+import axios from 'axios';
 
-export const BASE_URL = 'https://youtube-v31.p.rapidapi.com'
+export const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
 
 const options = {
     params: {
-        maxResults: '48',
+        // relatedToVideoId: '7ghhRHRP6t4',
+        // part: 'id,snippet',
+        // type: 'video',
+        maxResults: 48,
     },
     headers: {
-        'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
-        'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
-    }
+        'X-RapidAPI-Key': '52a957e935msh88d3f805c8547c0p12ebbdjsnf745e2b78719',
+        'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
+    },
 };
 
-console.log('API Key:', process.env.REACT_APP_YOUTUBE_API_KEY);
-
-export const fetchFromAPI = async(url) => {
+export const fetchFromAPI = async (url) => {
     const { data } = await axios.get(`${BASE_URL}/${url}`, options);
-    // console.log("これはテストです",axios.get(`${BASE_URL}/${url}`, options));
+    console.log(data)
     return data;
-}
+};

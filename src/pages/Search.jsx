@@ -6,19 +6,21 @@ import VideoSearch from '../components/videos/VideoSearch'
 import { fetchFromAPI } from '../utils/api'
 
 const Search = () => {
-    const { searchId } = useParams();
+    const { searchID } = useParams();
     const [ videos, setVideos ] = useState([]);
     const [ nextPageToken, setNextPageToken] = useState(null);
     const [ loading, setLoading ] = useState(true);
 
     useEffect(() => {
+        console.log("searchID:", searchID);
         setVideos([]);
-        fetchVidoes(searchId);
+        fetchVidoes(searchID);
         setLoading(true);
-    }, [searchId]);
+    }, [searchID]);
 
     const fetchVidoes = (query, pageToken = '') => {
         fetchFromAPI(`search?part=snippet&type=video&q=${query}&pageToken=${pageToken}`)
+        // fetchFromAPI(`search?part=snippet&type=video&q=vue.js&pageToken=${pageToken}`)
             .then((data) => {
                 setNextPageToken(data.nextPageToken);
                 setVideos((preVideos) => [...preVideos, ...data.items]);
@@ -32,7 +34,7 @@ const Search = () => {
 
     const handleLoadMore = () => {
         if(nextPageToken){
-            fetchVidoes(searchId, nextPageToken);
+            fetchVidoes(searchID, nextPageToken);
         }
     }
 
@@ -44,7 +46,7 @@ const Search = () => {
             description="유튜브 검색 결과 페이지입니다.">
             
             <section id='searchPage' className={searchPageClass}>
-                <h2>🤠 <em>{searchId}</em> 검색 결과입니다.</h2>
+                <h2>🤠 <em>{searchID}</em> 검색 결과입니다.</h2>
                 <div className="video__inner search">
                     <VideoSearch videos={videos} />
                 </div>
@@ -59,51 +61,3 @@ const Search = () => {
 }
 
 export default Search
-
-
-
-
-
-
-
-
-
-
-
-// import React, {useEffect, useState} from 'react'
-// import { useParams } from 'react-router-dom'
-// import Main from '../components/section/Main'
-
-// import VideoSearch from '../components/videos/VideoSearch'
-
-// const Search = () => {
-//   const { searchId } = useParams();
-//   const [ videos, setVideos ] = useState([]);
-  
-//   useEffect(() => {
-//       fetch(
-//           `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=48&q=${searchId}&type=video&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`,
-//       )
-//       .then(response => response.json())
-//       .then(result => {
-//           console.log(result);
-//           setVideos(result.items)
-//       })
-//       .catch(error => console.log(error));
-//       }, [searchId]);
-
-//   return (
-//       <Main 
-//           title = "유투브 검색"
-//           description="유튜브 검색 결과 페이지입니다.">
-          
-//           <section id='searchPage'>
-//               <div className="video__inner search">
-//                   <VideoSearch videos={videos} />
-//               </div>
-//           </section>
-//       </Main>
-//   )
-// }
-
-// export default Search
