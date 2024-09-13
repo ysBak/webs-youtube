@@ -27,12 +27,12 @@ const Developer = () => {
         {developerText.map((developer, key) => (
           <div className='developer' key={key}>
             <div className='developer__img play__icon'>
-              <Link to={`/chennel/${developer.chennelId}`}>
+              <Link to={`/channel/${developer.channelId}`}>
               <img src={developer.img} alt={developer.name} />
               </Link>
             </div>
             <div className='developer__info'>
-              <Link to={`/chennel/${developer.chennelId}`}>
+              <Link to={`/channel/${developer.channelId}`}>
                   {developer.name}
               </Link>
           </div>

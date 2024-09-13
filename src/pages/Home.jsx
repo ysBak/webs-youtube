@@ -7,7 +7,7 @@ import VideoSlider from '../components/videos/VideoSlider'
 import { developerText } from '../data/developer'
 import { itText } from '../data/it'
 import { japText } from '../data/jap'
-import { trainigText } from '../data/trainig'
+import { trainingText } from '../data/training'
 import { baseballText } from '../data/baseball'
 import { musicText } from '../data/music'
 
@@ -21,7 +21,7 @@ const Home = () => {
       <Developer videos={developerText} title="👍 おすすめチャンネル" id='developer' />
       <VideoSlider videos={itText} title="💻 IT" id="it" />
       <VideoSlider videos={japText} title="🎌 日本語" id="jpa" />
-      <VideoSlider videos={trainigText} title="💪 トレーニング" id="training" />
+      <VideoSlider videos={trainingText} title="💪 トレーニング" id="training" />
       <VideoSlider videos={baseballText} title="⚾ 野球" id="baseball" />
       <VideoSlider videos={musicText} title="🎵 音楽" id="music" />
     </Main>

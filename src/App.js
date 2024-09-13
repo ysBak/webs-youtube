@@ -29,12 +29,12 @@ const App = () => {
           <Route path='/developer' element={<Developer/>}/>
           <Route path='/it' element={<IT/>}/>
           <Route path='/jap' element={<Jap/>}/>
-          <Route path='/trainig' element={<Trainig/>}/>
+          <Route path='/training' element={<Trainig/>}/>
           <Route path='/baseball' element={<Baseball/>}/>
           <Route path='/music' element={<Music/>}/>
-          <Route path='/channel/:channelID' element={<Channel/>}/>
-          <Route path='/video/:videoID' element={<Video/>}/>
-          <Route path='/search/:searchID' element={<Search/>}/>
+          <Route path='/channel/:channelId' element={<Channel/>}/>
+          <Route path='/video/:videoId' element={<Video/>}/>
+          <Route path='/search/:searchId' element={<Search/>}/>
           <Route path='/*' element={<Not/>}/>
         </Routes>
       </Suspense>

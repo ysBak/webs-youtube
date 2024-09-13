@@ -29,7 +29,7 @@ export const todayText = [
         author : "VALX 山本義徳 筋トレ大学",
         channelId: "UC7F_CLFtxDetmUnORgmwImg",
         date: "2024.05.29",
-        page: "/trainig"
+        page: "/training"
     },{
         img: todayView04,
         title: "Breaking Down Shohei Ohtani's Swing on Japanese TV",
@@ -37,7 +37,7 @@ export const todayText = [
         author : "Teacherman Hitting",
         channelId: "UC0SrcfIvNzC5L2Tf9o9pNjg",
         date: "2023.08.02",
-        page: "/baceball"
+        page: "/baseball"
     },{
         img: todayView05,
         title: "ほろ酔い",

@@ -1,149 +1,29 @@
-import youtube01 from "../assets/img/youtube/youtube01.jpg";
-import youtube02 from "../assets/img/youtube/youtube02.jpg";
-import youtube03 from "../assets/img/youtube/youtube03.jpg";
-import youtube04 from "../assets/img/youtube/youtube04.jpg";
-import youtube05 from "../assets/img/youtube/youtube05.jpg";
+import music01 from "../assets/img/music/music01.jpg";
+import music02 from "../assets/img/music/music02.jpg";
+import music03 from "../assets/img/music/music03.jpg";
+
 
 export const musicText = [
     {
-        title: "01 나만의 유튜브 사이트 만들기",
-        img: youtube01,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
+        title: "ほろ酔い",
+        img: music01,
+        author: "あいみょん",
+        videoId: "rJwANLbC3cc",
+        date: "2018.07.09",
+        channelId: "UCQG5sjqWWe4MRhYM_OAEIyw",
     },{
-        title: "02 나만의 유튜브 사이트 만들기",
-        img: youtube02,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
+        title: "あいみょん - マリーゴールド【OFFICIAL MUSIC VIDEO】",
+        img: music02,
+        author: "あいみょん",
+        videoId: "0xSiBpUdW4E",
+        date: "2018.07.18",
+        channelId: "UCQG5sjqWWe4MRhYM_OAEIyw",
     },{
-        title: "03 나만의 유튜브 사이트 만들기",
-        img: youtube03,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "04 나만의 유튜브 사이트 만들기",
-        img: youtube04,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "05 나만의 유튜브 사이트 만들기",
-        img: youtube05,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "06 나만의 유튜브 사이트 만들기",
-        img: youtube01,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "07 나만의 유튜브 사이트 만들기",
-        img: youtube02,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "08 나만의 유튜브 사이트 만들기",
-        img: youtube03,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "09 나만의 유튜브 사이트 만들기",
-        img: youtube04,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "10 나만의 유튜브 사이트 만들기",
-        img: youtube05,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "11 나만의 유튜브 사이트 만들기",
-        img: youtube01,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "12 나만의 유튜브 사이트 만들기",
-        img: youtube02,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "13 나만의 유튜브 사이트 만들기",
-        img: youtube03,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "14 나만의 유튜브 사이트 만들기",
-        img: youtube04,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "15 나만의 유튜브 사이트 만들기",
-        img: youtube05,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "16 나만의 유튜브 사이트 만들기",
-        img: youtube01,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "17 나만의 유튜브 사이트 만들기",
-        img: youtube02,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "18 나만의 유튜브 사이트 만들기",
-        img: youtube03,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "19 나만의 유튜브 사이트 만들기",
-        img: youtube04,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    },{
-        title: "20 나만의 유튜브 사이트 만들기",
-        img: youtube05,
-        author: "webstoryboy",
-        videoId: "OKZXYgAgtyw",
-        date: "2023.09.09",
-        channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
+        title: "あいみょん - 裸の心【OFFICIAL MUSIC VIDEO】",
+        img: music03,
+        author: "あいみょん",
+        videoId: "yOAwvRmVIyo",
+        date: "2020.06.17",
+        channelId: "UCQG5sjqWWe4MRhYM_OAEIyw",
     }
 ]

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
 
 import VideoCards from '../components/videos/VideoCards'
-import { trainigText } from '../data/trainig'
+import { trainingText } from '../data/training'
 
 const Trainig = () => {
   const [loading, setLoading] = useState(true); 
@@ -13,7 +13,7 @@ const Trainig = () => {
       }, 300);
   }, []);
 
-const trainigPageClass = loading ? 'isLoading' : 'isLoaded';
+const trainingPageClass = loading ? 'isLoading' : 'isLoaded';
 
 
 
@@ -22,10 +22,10 @@ const trainigPageClass = loading ? 'isLoading' : 'isLoaded';
     title = "トレーニング"
     description="トレーニング関連動画です。"
     >
-     <section id='trainigPage' className={trainigPageClass}>
+     <section id='trainingPage' className={trainingPageClass}>
                 <h2>😄 トレーニング</h2>
                 <div className="video__inner">
-                    <VideoCards videos={trainigText} />
+                    <VideoCards videos={trainingText} />
                 </div>
             </section>
     </Main>

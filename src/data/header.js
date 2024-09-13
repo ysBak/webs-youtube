@@ -41,7 +41,7 @@ export const headerMenus = [
     {
         title: "トレーニング",
         icon: <CiCoffeeCup />,
-        src: "/trainig"
+        src: "/training"
     },
     {
         title: "野球",
@@ -56,11 +56,7 @@ export const headerMenus = [
 ];
 
 export const searchKeyword = [
-    {
-        title: "webstoryboy",
-        src: "/search/webstoryboy"
-    },
-    {
+{
         title: "HTML",
         src: "/search/html"
     },
@@ -93,6 +89,10 @@ export const searchKeyword = [
         src: "/search/sql"
     },
     {
+        title: "JLPT",
+        src: "/search/JLPT"
+    },
+    {
         title: "baseball",
         src: "/search/React Baseball"
     },
@@ -105,22 +105,22 @@ export const searchKeyword = [
 export const snsLink = [
     {
         title: "github",
-        url: "https://github.com/webstoryboy",
+        url: "https://github.com/ysBak",
         icon: <AiFillGithub />
     },
     {
         title: "youtube",
-        url: "https://www.youtube.com/webstoryboy",
+        url: "",
         icon: <AiFillYoutube />
     },
     {
         title: "codepen",
-        url: "https://codepen.io/webstoryboy",
+        url: "",
         icon: <AiOutlineCodepen />
     },
     {
         title: "instagram",
-        url: "https://www.instagram.com/webstoryboy",
+        url: "",
         icon: <AiOutlineInstagram />
     },
 ]
