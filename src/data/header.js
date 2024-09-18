@@ -1,10 +1,10 @@
 import { CiBaseball } from "react-icons/ci";
 import { CiCoins1 } from "react-icons/ci";
-import { CiBoxes } from "react-icons/ci";
-import { CiBullhorn } from "react-icons/ci";
-import { CiCoffeeCup } from "react-icons/ci";
+import { CiKeyboard } from "react-icons/ci";
+import { CiChat1 } from "react-icons/ci";
+import { CiMusicNote1 } from "react-icons/ci";
 import { CiDumbbell } from "react-icons/ci";
-import { CiFries } from "react-icons/ci";
+import { CiHome } from "react-icons/ci";
 import { CiMoneyBill } from "react-icons/ci";
 
 import { AiFillGithub } from "react-icons/ai";
@@ -15,7 +15,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 export const headerMenus = [
     {
         title: "Home",
-        icon: <CiBaseball />,
+        icon: <CiHome />,
         src: "/"
     },
     {
@@ -30,27 +30,27 @@ export const headerMenus = [
     },
     {
         title: "IT",
-        icon: <CiBoxes />,
+        icon: <CiKeyboard />,
         src: "/it"
     },
     {
         title: "日本語",
-        icon: <CiBullhorn />,
+        icon: <CiChat1 />,
         src: "/jap"
     },
     {
         title: "トレーニング",
-        icon: <CiCoffeeCup />,
+        icon: <CiDumbbell />,
         src: "/training"
     },
     {
         title: "野球",
-        icon: <CiDumbbell />,
+        icon: <CiBaseball />,
         src: "/baseball"
     },
     {
         title: "音楽",
-        icon: <CiFries />,
+        icon: <CiMusicNote1 />,
         src: "/music"
     },
 ];

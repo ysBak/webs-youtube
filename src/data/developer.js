@@ -6,12 +6,6 @@ export const developerText = [
         channelId: "UCsvQSv7EeCMHyYb9ENKAJZw"
     },
     {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaTw2ZRRi6UzhNeunJh03HOeAnKScgRJygpN7_MsVQ=s176-c-k-c0x00ffffff-no-rj",
-        name: "코딩애플",
-        channelAddress: "https://www.youtube.com/@codingapple",
-        channelId: "UCSLrpBAzr-ROVGHQ5EmxnUg"
-    },
-    {
         img: "https://yt3.googleusercontent.com/ytc/AOPolaSn88PvVXWN_Wy5vSr-5Eo_NGDdw_apL6bM7QKfCw=s176-c-k-c0x00ffffff-no-rj",
         name: "노마드 코더 Nomad Coders",
         channelAddress: "https://www.youtube.com/@nomadcoders",

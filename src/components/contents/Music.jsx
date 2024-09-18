@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Music = () => {
   return (
     <section id='music'>
-      <h2>😱 지금 이 코딩을 영상으로</h2>
+      <h2>😱 ミュージック</h2>
       <div className="video__inner">
       {musicText.map((video, key) => (
         <div className="video" key={key}>

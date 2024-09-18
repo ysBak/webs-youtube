@@ -6,7 +6,7 @@ import { trainingText } from '../../data/training'
 const Trainig = () => {
   return (
     <section id='training'>
-    <h2>🤓 GSAP 패럴랙스 효과를 하고 싶다면!</h2>
+    <h2>🤓 トレーニング</h2>
       <div className="video__inner">
           {trainingText.map((video, key) => (
             <div className="video" key={key}>

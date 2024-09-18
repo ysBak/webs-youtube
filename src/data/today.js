@@ -13,7 +13,7 @@ export const todayText = [
         author : "せかチャン - 世界一わかりやすい情報科チャンネル",
         channelId: "UC57H40XcMcL4Lbp_Uq2MVaQ",
         date: "2022/08/06",
-        page: "/id"
+        page: "/it"
     },{
         img: todayView02,
         title: "【JLPT直前対策！】1時間でJLPT N1文法 / 日本語能力試験 N1",

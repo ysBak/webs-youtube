@@ -46,8 +46,8 @@ const Channel = () => {
 
     return (
         <Main 
-            title = "유튜브 채널"
-            description="유튜브 채널페이지입니다.">
+            title = "Youtube チャンネル"
+            description="Youtube チャンネル">
             
             <section id='channel' className={channelPageClass}>
                 {channelDetail && (
@@ -70,7 +70,7 @@ const Channel = () => {
                             <VideoSearch videos={channelVideo} />
                         </div>
                         <div className="channel__more">
-                            {nextPageToken && <button onClick={loadMoreVideos}>더 보기</button>}
+                            {nextPageToken && <button onClick={loadMoreVideos}>もっと見る</button>}
                         </div>
                     </div>
                 )}

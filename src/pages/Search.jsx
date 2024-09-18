@@ -42,8 +42,8 @@ const Search = () => {
 
     return (
         <Main 
-            title = "유투브 검색"
-            description="유튜브 검색 결과 페이지입니다.">
+            title = "Youtube 検索"
+            description="Youtube 検索 ページ">
             
             <section id='searchPage' className={searchPageClass}>
                 <h2>🤠 <em>{searchId}</em> 검색 결과입니다.</h2>

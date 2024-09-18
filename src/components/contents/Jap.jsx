@@ -1,12 +1,12 @@
 import React from 'react'
 
-import { japText } from '../../data/Jap'
+import { japText } from '../../data/jap'
 import { Link } from 'react-router-dom'
 
 const Jap = () => {
   return (
     <section id='jap'>
-    <h2>😛 웹표준 사이트 만들기 기초 다지기</h2>
+    <h2>😛 日本語</h2>
       <div className="video__inner">
           {japText.map((video, key) => (
             <div className="video" key={key}>
